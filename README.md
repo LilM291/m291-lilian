@@ -10,3 +10,5 @@ LilM291
 - https://www.fantasynamegenerators.com/
 - https://ch.pinterest.com/
 - youtube.com/
+
+_Repo cloné et ouvert dans VS Code._
