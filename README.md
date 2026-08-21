@@ -5,3 +5,8 @@ Je suis Lilian, médiamaticien en 3e année en Suisse romande. J'aime créer des
 ## Comment me trouver
 
 LilM291
+
+## mes 3 site préférés
+- https://www.fantasynamegenerators.com/
+- https://ch.pinterest.com/
+- youtube.com/
