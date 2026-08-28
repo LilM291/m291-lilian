@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lilian | Médiamaticien</title>
+	<style>
+		:root {
+			--fond: #f3f0e9;
+			--texte: #17242b;
+			--secondaire: #526168;
+			--accent: #c65d45;
+			--blanc: #fffdf8;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			background: var(--fond);
+			color: var(--texte);
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+		}
+
+		main {
+			width: min(100% - 2rem, 960px);
+			margin: 0 auto;
+			padding: 3rem 0;
+		}
+
+		.intro {
+			display: grid;
+			grid-template-columns: 1.15fr 0.85fr;
+			gap: 3rem;
+			align-items: end;
+			min-height: 58vh;
+			padding-bottom: 3rem;
+			border-bottom: 1px solid #c9c4ba;
+		}
+
+		.etiquette {
+			margin: 0 0 1.5rem;
+			color: var(--accent);
+			font-size: 0.8rem;
+			font-weight: bold;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+		}
+
+		h1,
+		h2 {
+			font-family: Georgia, serif;
+			font-weight: normal;
+		}
+        /* cela modifie tout les h1 et h2 de la page */
+
+		h1 {
+			max-width: 600px;
+			margin: 0;
+			font-size: clamp(3.5rem, 11vw, 7rem);
+			line-height: 0.95;
+		}
+
+		.presentation {
+			margin: 0;
+			color: var(--secondaire);
+			font-size: 1.15rem;
+		}
+
+		.presentation strong {
+			color: var(--texte);
+		}
+
+		.competences {
+			padding-top: 2.5rem;
+		}
+
+		h2 {
+			margin: 0 0 1.5rem;
+			font-size: 2rem;
+		}
+
+		.liste-competences {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 1rem;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.liste-competences li {
+			min-height: 150px;
+			padding: 1.25rem;
+			background: var(--blanc);
+			border-top: 3px solid var(--accent);
+		}
+
+		.numero {
+			display: block;
+			margin-bottom: 1.5rem;
+			color: var(--accent);
+			font-size: 0.8rem;
+			font-weight: bold;
+		}
+
+		.liste-competences strong {
+			font-size: 1.1rem;
+		}
+
+		footer {
+			display: flex;
+			justify-content: space-between;
+			gap: 1rem;
+			align-items: center;
+			margin-top: 3rem;
+			padding-top: 1.5rem;
+			border-top: 1px solid #c9c4ba;
+			color: var(--secondaire);
+		}
+
+		footer p {
+			margin: 0;
+		}
+
+		a {
+			color: var(--texte);
+			font-weight: bold;
+			text-decoration-thickness: 2px;
+			text-underline-offset: 0.25rem;
+		}
+
+		a:hover,
+		a:focus {
+			color: var(--accent);
+		}
+
+		@media (max-width: 650px) {
+			main {
+				padding: 2rem 0;
+			}
+
+			.intro {
+				display: block;
+				min-height: auto;
+				padding-bottom: 2.5rem;
+			}
+
+			.presentation {
+				margin-top: 2rem;
+			}
+
+			.liste-competences {
+				grid-template-columns: 1fr;
+			}
+
+			.liste-competences li {
+				min-height: auto;
+			}
+
+			footer {
+				display: block;
+			}
+
+			footer p + p {
+				margin-top: 1rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<section class="intro" aria-labelledby="titre-principal">
+			<div>
+				<p class="etiquette">Médiamaticien · Suisse romande</p>
+				<h1 id="titre-principal">Bonjour,<br>je suis Lilian.</h1>
+                <!--Titre de ma page-->
+			</div>
+			<p class="presentation">Je suis passionné par toute les créations artistiques dans le domaine du multimédia, surtout la vidéo.</p>
+		</section>
+
+		<section class="competences" aria-labelledby="titre-competences">
+			<h2 id="titre-competences">Ce qui m'intéresse</h2>
+			<ul class="liste-competences">
+				<li><span class="numero">01</span><strong>Design visuel</strong><br>Creér une identité visuelle me représentant.</li>
+				<li><span class="numero">02</span><strong>Photographie</strong><br>Capturer un moment dans le temps.</li>
+				<li><span class="numero">03</span><strong>Vidéos</strong><br>J'aime beaucoup la post production.</li>
+			</ul>
+		</section>
+
+		<footer>
+			<p>Merci pour votre visite.</p>
+			<p><a href="https://github.com/LilM291" target="_blank" rel="noopener noreferrer">Voir mon GitHub ↗</a></p>
+		</footer>
+	</main>
+</body>
+</html>
