@@ -11,4 +11,7 @@ LilM291
 - https://ch.pinterest.com/
 - youtube.com/
 
+## En ligne
+Page profil : https://VOTRE-PSEUDO.github.io/m291-prenom/
+
 _Repo cloné et ouvert dans VS Code._
