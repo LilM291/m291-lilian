@@ -1,0 +1,5 @@
+- 1 : La personne appuie sur l'option filtrer
+- 2 : Une fenetre s'ouvre avec pleins d'option de filtration qui peuvent être cochée (options multiples)
+- 3 : La personne appuie sur "enter" et  la page charge les options filtrés de sa recherche
+- si ça fonctionne pas, raison : le filtrage est trop multiples est cela ne correspond a aucun insecte disponible dans la base de données "Désolé nous n'avons pas pu trouver une bêbêtes correspondant a votre recherche... :("
+- 
