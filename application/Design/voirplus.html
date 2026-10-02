@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f5efe2">
+	<meta name="description" content="Découvrez les habitudes et le cycle de vie des insectes de Suisse.">
+	<title>Petite tortue — Petites vies</title>
+	<link rel="stylesheet" href="css/smth.css">
+	<link rel="stylesheet" href="css/smth2.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="wordmark" href="accueil.html" aria-label="Petites vies, accueil">
+			<span class="wordmark-mark" aria-hidden="true">✳</span>
+			<span>petites vies</span>
+		</a>
+		<a class="about-link" href="accueil.html#catalogue">Le catalogue <span aria-hidden="true">↘</span></a>
+	</header>
+
+	<main class="detail-page">
+		<a class="back-link" href="accueil.html#catalogue"><span aria-hidden="true">←</span> Retour aux espèces</a>
+
+		<article class="detail-layout" aria-labelledby="species-name">
+			<div class="detail-art art-butterfly" id="species-art" role="img" aria-label="Illustration de la petite tortue dans une prairie">
+				<span class="detail-art-sun"></span>
+				<span class="detail-art-hill hill-back"></span>
+				<span class="detail-art-hill hill-front"></span>
+				<span class="detail-stem stem-left"></span>
+				<span class="detail-stem stem-right"></span>
+				<span class="detail-flower flower-left">✿</span>
+				<span class="detail-flower flower-right">✿</span>
+				<span class="detail-bug" id="species-symbol" aria-hidden="true">✺</span>
+				<span class="art-note" id="species-art-caption">Une rencontre dans les hautes herbes</span>
+			</div>
+
+			<div class="detail-copy">
+				<p class="eyebrow"><span class="eyebrow-dot"></span><span id="species-category">Papillon · Nymphalidae</span></p>
+				<h1 id="species-name">Petite tortue</h1>
+				<p class="detail-latin" id="species-latin">Aglais urticae</p>
+				<p class="detail-description" id="species-description">Avec ses ailes orange vif bordées de bleu, la petite tortue attire le regard dès les premiers beaux jours. On la rencontre dans les jardins, les prairies et les clairières ensoleillées.</p>
+				<div class="detail-tags" aria-label="Informations rapides">
+					<span id="species-season">Mars à octobre</span>
+					<span id="species-habitat">Jardins et prairies</span>
+				</div>
+			</div>
+		</article>
+
+		<section class="field-notes" aria-labelledby="notes-title">
+			<div class="notes-heading">
+				<p class="eyebrow">Quelques repères <span class="season-mark">✳</span></p>
+				<h2 id="notes-title">À son rythme</h2>
+			</div>
+			<dl class="facts-list">
+				<div class="fact-row">
+					<dt><span class="fact-symbol" aria-hidden="true">⌖</span> Son coin préféré</dt>
+					<dd id="species-home">Jardins, prairies et lisières ensoleillées</dd>
+				</div>
+				<div class="fact-row">
+					<dt><span class="fact-symbol" aria-hidden="true">☼</span> Sa saison</dt>
+					<dd id="species-active">De mars à octobre</dd>
+				</div>
+				<div class="fact-row">
+					<dt><span class="fact-symbol" aria-hidden="true">⟳</span> Son cycle de vie</dt>
+					<dd id="species-cycle">Métamorphose complète : œuf, chenille, chrysalide, papillon</dd>
+				</div>
+				<div class="fact-row">
+					<dt><span class="fact-symbol" aria-hidden="true">♡</span> Au menu</dt>
+					<dd id="species-food">La chenille mange surtout des orties ; l’adulte visite les fleurs.</dd>
+				</div>
+			</dl>
+			<aside class="field-note">
+				<span class="note-star" aria-hidden="true">✳</span>
+				<div><p class="note-label">Le saviez-vous ?</p><p id="species-fun-fact">La petite tortue passe souvent l’hiver à l’abri, déjà adulte, puis reprend son activité au printemps.</p></div>
+			</aside>
+		</section>
+
+		<nav class="detail-navigation" aria-label="Navigation des espèces">
+			<a class="back-link" href="accueil.html#catalogue"><span aria-hidden="true">←</span> Revenir au catalogue</a>
+			<a class="next-link" id="next-species" href="voirplus.html?espece=bourdon-terrestre">Découvrir une autre espèce <span aria-hidden="true">→</span></a>
+		</nav>
+	</main>
+
+	<footer class="site-footer">
+		<a class="wordmark footer-wordmark" href="accueil.html"><span class="wordmark-mark" aria-hidden="true">✳</span><span>petites vies</span></a>
+		<p>À observer avec douceur, partout en Suisse.</p>
+		<span class="footer-flower" aria-hidden="true">✿</span>
+	</footer>
+
+	<script>
+		const species = {
+			"petite-tortue": {
+				name: "Petite tortue", latin: "Aglais urticae", category: "Papillon · Nymphalidae", symbol: "✺", art: "art-butterfly",
+				alt: "Illustration de la petite tortue dans une prairie", caption: "Une rencontre dans les hautes herbes",
+				description: "Avec ses ailes orange vif bordées de bleu, la petite tortue attire le regard dès les premiers beaux jours. On la rencontre dans les jardins, les prairies et les clairières ensoleillées.",
+				season: "Mars à octobre", habitat: "Jardins et prairies", home: "Jardins, prairies et lisières ensoleillées", active: "De mars à octobre",
+				cycle: "Métamorphose complète : œuf, chenille, chrysalide, papillon", food: "La chenille mange surtout des orties ; l’adulte visite les fleurs.",
+				fact: "La petite tortue passe souvent l’hiver à l’abri, déjà adulte, puis reprend son activité au printemps."
+			},
+			"bourdon-terrestre": {
+				name: "Bourdon terrestre", latin: "Bombus terrestris", category: "Bourdon · Apidae", symbol: "✳", art: "art-bee",
+				alt: "Illustration d'un bourdon terrestre parmi les fleurs", caption: "Le grand visiteur des fleurs",
+				description: "Reconnaissable à son corps trapu et à ses bandes jaunes et noires, le bourdon terrestre butine du début du printemps jusqu’à l’automne. Il joue un rôle précieux dans la pollinisation des plantes sauvages et cultivées.",
+				season: "Mars à octobre", habitat: "Prairies et jardins", home: "Prairies fleuries, jardins et talus", active: "De mars à octobre",
+				cycle: "Métamorphose complète ; la reine fonde une colonie au printemps", food: "Le nectar lui fournit de l’énergie et le pollen nourrit les larves.",
+				fact: "Le bourdon peut butiner par temps frais, quand beaucoup d’autres pollinisateurs restent à l’abri."
+			},
+			"coccinelle-sept-points": {
+				name: "Coccinelle à sept points", latin: "Coccinella septempunctata", category: "Coccinelle · Coccinellidae", symbol: "✿", art: "art-ladybird",
+				alt: "Illustration d'une coccinelle à sept points sur une feuille", caption: "Sept points, une alliée du jardin",
+				description: "Cette coccinelle rouge porte trois points sur chaque aile et un point partagé au milieu. Très commune en Suisse, elle fréquente les jardins, les prairies et les lisières où elle trouve de quoi se nourrir.",
+				season: "Avril à octobre", habitat: "Jardins et prairies", home: "Jardins, prairies et bords de chemins", active: "Du printemps à l’automne",
+				cycle: "Métamorphose complète : œuf, larve, nymphe, adulte", food: "Adultes et larves mangent notamment des pucerons.",
+				fact: "Ses larves ont une silhouette allongée et sombre, bien différente de la coccinelle adulte."
+			},
+			"libellule-deprimee": {
+				name: "Libellule déprimée", latin: "Libellula depressa", category: "Libellule · Libellulidae", symbol: "✣", art: "art-dragonfly",
+				alt: "Illustration d'une libellule près d'un étang", caption: "Une acrobate au bord de l'eau",
+				description: "La libellule déprimée se reconnaît à son abdomen large et aplati. Elle aime les eaux peu profondes et ensoleillées, où elle chasse en vol et se pose souvent sur un perchoir bien dégagé.",
+				season: "Mai à septembre", habitat: "Étangs et mares", home: "Mares, étangs et eaux calmes ensoleillées", active: "De mai à septembre",
+				cycle: "Les jeunes vivent dans l’eau avant leur transformation en adulte ailé", food: "Elle capture de petits insectes en vol.",
+				fact: "La larve de libellule peut passer une longue période sous l’eau avant de sortir et de prendre son envol."
+			}
+		};
+
+		const selectedId = new URLSearchParams(window.location.search).get("espece");
+		const selectedSpecies = species[selectedId] || species["petite-tortue"];
+		const textFields = {
+			"species-name": "name", "species-latin": "latin", "species-category": "category",
+			"species-art-caption": "caption", "species-description": "description", "species-season": "season",
+			"species-habitat": "habitat", "species-home": "home", "species-active": "active",
+			"species-cycle": "cycle", "species-food": "food", "species-fun-fact": "fact"
+		};
+
+		for (const [elementId, field] of Object.entries(textFields)) {
+			document.getElementById(elementId).textContent = selectedSpecies[field];
+		}
+		document.getElementById("species-art").classList.remove("art-butterfly", "art-bee", "art-ladybird", "art-dragonfly");
+		document.getElementById("species-art").classList.add(selectedSpecies.art);
+		document.getElementById("species-art").setAttribute("aria-label", selectedSpecies.alt);
+		document.getElementById("species-symbol").textContent = selectedSpecies.symbol;
+		document.title = `${selectedSpecies.name} — Petites vies`;
+
+		const speciesIds = Object.keys(species);
+		const nextId = speciesIds[(speciesIds.indexOf(selectedId) + 1 + speciesIds.length) % speciesIds.length];
+		const nextSpecies = species[nextId];
+		document.getElementById("next-species").href = `voirplus.html?espece=${nextId}`;
+		document.getElementById("next-species").firstChild.textContent = `Découvrir ${nextSpecies.name} `;
+	</script>
+</body>
+</html>

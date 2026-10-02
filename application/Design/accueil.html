@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f5efe2">
+	<title>Petites vies — Insectes de Suisse</title>
+	<link rel="stylesheet" href="css/smth.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="wordmark" href="accueil.html" aria-label="Petites vies, accueil">
+			<span class="wordmark-mark" aria-hidden="true">✳</span>
+			<span>petites vies</span>
+		</a>
+		<a class="about-link" href="#catalogue">Le catalogue <span aria-hidden="true">↘</span></a>
+	</header>
+
+	<main>
+		<section class="intro" aria-labelledby="page-title">
+			<div class="intro-copy">
+				<p class="eyebrow"><span class="eyebrow-dot"></span> Le vivant, tout près de chez nous</p>
+				<h1 id="page-title">Les petites<br><em>vies</em> de Suisse.</h1>
+				<p class="intro-text">Un guide de poche pour rencontrer les insectes qui partagent nos chemins, nos jardins et nos saisons.</p>
+				<a class="scroll-link" href="#catalogue">Partir à leur rencontre <span aria-hidden="true">↓</span></a>
+			</div>
+			<div class="intro-still-life" role="img" aria-label="Illustration décorative d'une prairie ensoleillée">
+				<span class="sun"></span>
+				<span class="stem stem-one"></span>
+				<span class="stem stem-two"></span>
+				<span class="petal petal-one">✿</span>
+				<span class="petal petal-two">✿</span>
+				<span class="bee" aria-hidden="true">✳</span>
+				<span class="still-life-caption">Observer, comprendre,<br>protéger.</span>
+			</div>
+			<span class="intro-index" aria-hidden="true">01 / 04</span>
+		</section>
+
+		<section class="catalogue" id="catalogue" aria-labelledby="catalogue-title">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow">Le carnet de saison <span class="season-mark">✳</span></p>
+					<h2 id="catalogue-title">Croisés en ce moment</h2>
+				</div>
+				<p class="result-count"><strong>04</strong> espèces à découvrir</p>
+			</div>
+
+			<details class="filter">
+				<summary><span class="filter-icon" aria-hidden="true">☷</span> Affiner ma recherche <span class="filter-plus" aria-hidden="true">+</span></summary>
+				<form class="filter-options" action="#catalogue">
+					<label>Où les trouver
+						<select name="region">
+							<option>Toute la Suisse</option>
+							<option>Jardin et prairie</option>
+							<option>Forêt et lisière</option>
+							<option>Montagne</option>
+						</select>
+					</label>
+					<label>Quand les observer
+						<select name="season">
+							<option>Toute l’année</option>
+							<option>Printemps</option>
+							<option>Été</option>
+							<option>Automne</option>
+						</select>
+					</label>
+					<label>Cycle de vie
+						<select name="cycle">
+							<option>Tous les cycles</option>
+							<option>Métamorphose complète</option>
+							<option>Métamorphose incomplète</option>
+						</select>
+					</label>
+					<button class="apply-filter" type="submit">Voir les espèces <span aria-hidden="true">→</span></button>
+				</form>
+			</details>
+
+			<div class="species-grid">
+				<article class="species-card card-butterfly">
+					<div class="species-art art-butterfly" role="img" aria-label="Papillon aux ailes orange dans une prairie">
+						<span class="art-sun"></span><span class="art-flower flower-a">✿</span><span class="art-flower flower-b">✿</span><span class="art-insect">✺</span>
+						<span class="art-number">01</span>
+					</div>
+					<div class="species-info">
+						<p class="species-meta">Jardin · Printemps à automne</p>
+						<h3>Petite tortue</h3>
+						<p class="latin-name">Aglais urticae</p>
+						<a class="more-link" href="voirplus.html?espece=petite-tortue">Voir la fiche <span aria-hidden="true">↗</span></a>
+					</div>
+				</article>
+
+				<article class="species-card card-bee">
+					<div class="species-art art-bee" role="img" aria-label="Bourdon en vol près de fleurs">
+						<span class="art-sun"></span><span class="art-flower flower-a">✿</span><span class="art-flower flower-b">✿</span><span class="art-insect">✳</span>
+						<span class="art-number">02</span>
+					</div>
+					<div class="species-info">
+						<p class="species-meta">Prairie · Mars à octobre</p>
+						<h3>Bourdon terrestre</h3>
+						<p class="latin-name">Bombus terrestris</p>
+						<a class="more-link" href="voirplus.html?espece=bourdon-terrestre">Voir la fiche <span aria-hidden="true">↗</span></a>
+					</div>
+				</article>
+
+				<article class="species-card card-ladybird">
+					<div class="species-art art-ladybird" role="img" aria-label="Coccinelle posée sur une feuille">
+						<span class="art-sun"></span><span class="art-flower flower-a">✿</span><span class="art-flower flower-b">✿</span><span class="art-insect">✿</span>
+						<span class="art-number">03</span>
+					</div>
+					<div class="species-info">
+						<p class="species-meta">Jardin · Avril à octobre</p>
+						<h3>Coccinelle à sept points</h3>
+						<p class="latin-name">Coccinella septempunctata</p>
+						<a class="more-link" href="voirplus.html?espece=coccinelle-sept-points">Voir la fiche <span aria-hidden="true">↗</span></a>
+					</div>
+				</article>
+
+				<article class="species-card card-dragonfly">
+					<div class="species-art art-dragonfly" role="img" aria-label="Libellule près d'un point d'eau">
+						<span class="art-sun"></span><span class="art-flower flower-a">✿</span><span class="art-flower flower-b">✿</span><span class="art-insect">✣</span>
+						<span class="art-number">04</span>
+					</div>
+					<div class="species-info">
+						<p class="species-meta">Étang · Mai à septembre</p>
+						<h3>Libellule déprimée</h3>
+						<p class="latin-name">Libellula depressa</p>
+						<a class="more-link" href="voirplus.html?espece=libellule-deprimee">Voir la fiche <span aria-hidden="true">↗</span></a>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="wordmark footer-wordmark" href="accueil.html"><span class="wordmark-mark" aria-hidden="true">✳</span><span>petites vies</span></a>
+		<p>À observer avec douceur, partout en Suisse.</p>
+		<span class="footer-flower" aria-hidden="true">✿</span>
+	</footer>
+</body>
+</html>
