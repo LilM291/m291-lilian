@@ -1,4 +1,4 @@
-## Brief — [Nos insectes de la région]
+## Brief — [Nos insectes de la région] (Suisse)
 
 # Pitch [2 phrases. Quoi + pour qui.]
 c'est un Catalogue sur les insectes ou on peu filter leurs "provenance" "période de l'année" "cycle de vie..."
