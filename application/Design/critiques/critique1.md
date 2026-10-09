@@ -1,0 +1,13 @@
+## Chaleureux
+## 2 forces
+
+Critère : … — preuve : …
+
+Critère : … — preuve : …
+## 2 faiblesses
+
+Critère : … — preuve : …
+
+Critère : … — preuve : …
+# Verdict
+Je garde / élimine ce design parce que (persona + tâche) :
