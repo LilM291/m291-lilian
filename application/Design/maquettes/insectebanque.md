@@ -75,3 +75,4 @@ Les propriétées :
 33 - Hanneton foulon
 
 34 - Hanneton commun
+Toutes les sources vienne du livre de "Les petits livres de la nature - coléoptères" l'édition Salamandre

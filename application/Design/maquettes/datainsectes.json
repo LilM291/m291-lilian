@@ -201,7 +201,7 @@
     "nom": "Coccnielle à sept points",
     "famille": "Coccinellidés",
     "longueurMinMm": 5,
-    "longueurMaxMm": 10, (8)
+    "longueurMaxMm": 10,
     "Fréquence": "Très commun",
     "observations": ["février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre"]
   },
@@ -334,5 +334,5 @@
     "longueurMaxMm": 30,
     "Fréquence": "Peu commun",
     "observations": ["avril", "mai", "juin"]
-  },
+  }
 ]
