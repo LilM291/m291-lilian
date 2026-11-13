@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "nom": "Lepture tacheté",
+    "famille": "Cérambycidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 20,
+    "Fréquence": "Très commun",
+    "observations": ["mai", "juin", "juillet", "août"]
+  },
+  {
+    "id": 2,
+    "nom": "Petit capricorne",
+    "famille": "Cérambycidés",
+    "longueurMinMm": 15,
+    "longueurMaxMm": 28,
+    "Fréquence": "Commun",
+    "observations": ["mai", "juin", "juillet"]
+  },
+  {
+    "id": 3,
+    "nom": "Rosalie des Alpes",
+    "famille": "Cérambycidés",
+    "longueurMinMm": 15,
+    "longueurMaxMm": 38,
+    "Fréquence": "Rare",
+    "observations": ["juin", "juillet", "août", "septembre"]
+  },
+  {
+    "id": 4,
+    "nom": "Téléphore moine",
+    "famille": "Cantharidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Très commun",
+    "observations": ["avril", "mai", "juin", "juillet"]
+  },
+
+  {
+    "id": 5,
+    "nom": "Anthaxie du saule",
+    "famille": "Buprestidés",
+    "longueurMinMm": 5,
+    "longueurMaxMm": 10,
+    "Fréquence": "Peu commun",
+    "observations": ["avril","mai", "juin", "juillet"]
+  },
+
+    {
+    "id": 6,
+    "nom": "Cardinal", 
+    "famille": "Pyrochroidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 20,
+    "Fréquence": "Très commun",
+    "observations": ["avril","mai", "juin", "juillet", "août"]
+  },
+
+    {
+    "id": 7,
+    "nom": "Clairon des abeilles",
+    "famille": "Claironidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Très commun",
+    "observations": ["mai", "juin", "juillet", "août"]
+    
+  },
+
+    {
+    "id": 8,
+    "nom": "Luciole",
+    "famille": "Lampyridés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Rare",
+    "observations": ["mai", "juin", "juillet", "août"]
+  },
+
+  {
+    "id": 9,
+    "nom": "Cicindèle champêtre",
+    "famille": "Carabidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Très commun",
+    "observations": ["mars", "avril", "mai", "juin", "juillet", "août", "septembre"]
+  },
+
+    {
+    "id": 10,
+    "nom": "Cantharide officinale",
+    "famille": "Méloïdés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 25,
+    "Fréquence": "Peu commun",
+    "observations": ["mai", "juin"]
+  },
+
+  {
+    "id": 11,
+    "nom": "Carabe doré",
+    "famille": "Carabidés",
+    "longueurMinMm": 15,
+    "longueurMaxMm": 30,
+    "Fréquence": "Commun",
+    "observations": ["avril", "mai", "juin", "juillet"]
+  },
+
+    {
+    "id": 12,
+    "nom": "Staphylin-bourdon",
+    "famille": "Staphylinidés",
+    "longueurMinMm": 20,
+    "longueurMaxMm": 30,
+    "Fréquence": "Peu commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août"]
+  },
+
+    {
+    "id": 13,
+    "nom": "Taupin cuivré",
+    "famille": "Elateridés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 20,
+    "Fréquence": "Peu commun",
+    "observations": ["mai", "juin", "juillet"]
+  },
+
+    {
+    "id": 14,
+    "nom": "Ver luisant",
+    "famille": "Lampyridés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 20,
+    "Fréquence": "Commun",
+    "observations": ["mai", "juin", "juillet", "août"]
+  },
+
+  {
+    "id": 15,
+    "nom": "Œdemere noble",
+    "famille": "Oedemeridés",
+    "longueurMinMm": 5,
+    "longueurMaxMm": 10,
+    "Fréquence": "Peu commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août"]
+  }, 
+  {
+    "id": 16,
+    "nom": "Silphe à corselet rouge",
+    "famille": "Silphidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Commun",
+    "observations": ["février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre"]
+  },
+
+    {
+    "id": 17,
+    "nom": "Cétoine dorée",
+    "famille": "Scarabéidés",
+    "longueurMinMm": 15,
+    "longueurMaxMm": 20,
+    "Fréquence": "Très commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août", "septembre", "octobre"]
+  },
+
+    {
+    "id": 18,
+    "nom": "Trichie fasciée",
+    "famille": "Scarabaeidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Commun",
+    "observations": ["mai", "juin", "juillet", "août"]
+  },
+
+  {
+    "id": 19,
+    "nom": "Oréine magnifique",
+    "famille": "Chrysomélidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Peu commun",
+    "observations": ["juin", "juillet", "août"]
+  },
+
+    {
+    "id": 20,
+    "nom": "Doryphore",
+    "famille": "Chrysomélidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 15,
+    "Fréquence": "Très commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août", "septembre"]
+  },
+  
+  {
+    "id": 21,
+    "nom": "Coccnielle à sept points",
+    "famille": "Coccinellidés",
+    "longueurMinMm": 5,
+    "longueurMaxMm": 10, (8)
+    "Fréquence": "Très commun",
+    "observations": ["février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre"]
+  },
+
+    {
+    "id": 22,
+    "nom": "Coccinelle à deux points",
+    "famille": "Coccinellidés",
+    "longueurMinMm": 3,
+    "longueurMaxMm": 5,
+    "Fréquence": "Très commun",
+    "observations": ["mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre"]
+    
+  },
+
+    {
+    "id": 23,
+    "nom": "Coccinelle à vingt-deux points",
+    "famille": "Coccinellidés",
+    "longueurMinMm": 3,
+    "longueurMaxMm": 5,
+    "Fréquence": "Très commun",
+    "observations": ["mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre"]
+  },
+
+  {
+    "id": 24,
+    "nom": "Nécrophore imité",
+    "famille": "Silphidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 20,
+    "Fréquence": "Commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août", "septembre", "octobre"]
+  },
+
+    {
+    "id": 25,
+    "nom": "Géotrupe des bois",
+    "famille": "Geotrupidés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 20,
+    "Fréquence": "Commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre"]
+  },
+  {
+    "id": 26,
+    "nom": "Crache-sang",
+    "famille": "Chrysomélidés",
+    "longueurMinMm": 15,
+    "longueurMaxMm": 20,
+    "Fréquence": "Commun",
+    "observations": ["février", "mars", "mai", "juin", "juillet", "août", "septembre", "octobre"]
+  },
+
+    {
+    "id": 27,
+    "nom": "Charançon des pétasites",
+    "famille": "Curculionidés",
+    "longueurMinMm": 5,
+    "longueurMaxMm": 20,
+    "Fréquence": "Peu commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août"]
+  },
+
+    {
+    "id": 28,
+    "nom": "Balanin des noisettes",
+    "famille": "Curculionidés",
+    "longueurMinMm": 5,
+    "longueurMaxMm": 10,
+    "Fréquence": "Commun",
+    "observations": ["avril", "mai", "juin", "juillet", "août", "septembre"]
+  },
+
+  {
+    "id": 29,
+    "nom": "Méloé violet",
+    "famille": "Méloïdés",
+    "longueurMinMm": 10,
+    "longueurMaxMm": 40,
+    "Fréquence": "Peu commun",
+    "observations": ["mars", "avril", "mai", "juin"]
+  },
+
+    {
+    "id": 30,
+    "nom": "Lucane cerf-volant",
+    "famille": "Lucanidés",
+    "longueurMinMm": 20,
+    "longueurMaxMm": 90,
+    "Fréquence": "Peu commun",
+    "observations": ["mai", "juin", "juillet", "août"]
+  },
+
+  {
+    "id": 31,
+    "nom": "Dytique bordé",
+    "famille": "Dytiscidés",
+    "longueurMinMm": 30,
+    "longueurMaxMm": 40,
+    "Fréquence": "Peu commun",
+    "observations": ["février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre"]
+  },
+
+    {
+    "id": 32,
+    "nom": "Grand hydrophile",
+    "famille": "Hydrophilidés",
+    "longueurMinMm": 40,
+    "longueurMaxMm": 50,
+    "Fréquence": "Peu commun",
+    "observations": ["février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre"]
+  },
+
+    {
+    "id": 33,
+    "nom": "Hanneton foulon",
+    "famille": "Scarabaeidés",
+    "longueurMinMm": 20,
+    "longueurMaxMm": 40,
+    "Fréquence": "Peu commun",
+    "observations": ["juin", "juillet", "août"]
+  },
+
+  {
+    "id": 34,
+    "nom": "Hanneton commun",
+    "famille": "Scarabaeidés",
+    "longueurMinMm": 20,
+    "longueurMaxMm": 30,
+    "Fréquence": "Peu commun",
+    "observations": ["avril", "mai", "juin"]
+  },
+]
